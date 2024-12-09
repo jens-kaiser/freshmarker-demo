@@ -1,0 +1,6 @@
+<#setting locale="de-DE">
+Am ${date} <#if date?is_holiday>(${date?get_holiday})</#if> sehen wir uns!
+
+<#list files as file with looper>
+${looper?index}. ${file} <#if file?is_file>${file?size}</#if>
+</#list>

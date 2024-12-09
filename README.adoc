@@ -1,0 +1,3 @@
+= FreshMarker Demo
+
+A simple _Spring Boot_ E-Mail demo for the https://gitlab.com/schegge/freshmarker[FreshMarker] template engine.
